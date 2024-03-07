@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/reacdle/",
+  base: "/wordleproj/dist",
   plugins: [react()],
   test: {
     globals: true,
