@@ -44,7 +44,7 @@ export const useStore = create<StoreState>()(
               if (r === LetterState.Miss) {
                 break;
               }
-            // eslint-disable-next-line no-fallthrough
+              break;
             default:
               keyboardLetterState[resultGuessLetter] = r;
               break;
